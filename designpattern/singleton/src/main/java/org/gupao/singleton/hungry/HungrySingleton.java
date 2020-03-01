@@ -1,5 +1,7 @@
 package org.gupao.singleton.hungry;
 
+import java.io.Serializable;
+
 /**
  * @Author: Spark_tang
  * @Description: 饿汉式单利模式
@@ -10,7 +12,9 @@ package org.gupao.singleton.hungry;
  * 缺点：在某些情况下（比如很多单利），会造成内存的浪费
  *
  */
-public class HungrySingleton {
+public class HungrySingleton implements Serializable {
+
+    private static final long serialVersionUID = -8793527367679151316L;
 
     private static HungrySingleton hungrySingleton;
 
@@ -21,6 +25,14 @@ public class HungrySingleton {
     private HungrySingleton() {}
 
     public static HungrySingleton getInstance() {
+        return hungrySingleton;
+    }
+/**
+     * 序列化也可以破坏单例，要重写一个readResolve() 方法来防止破坏单例。
+     *
+     * @return
+     */
+    private Object readResolve() {
         return hungrySingleton;
     }
 }
