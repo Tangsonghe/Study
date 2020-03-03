@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args) {
         WechatSFProxy proxy = new WechatSFProxy();
         IWechat wechat = proxy.newInstance(new Wechat());
-        wechat.sendMsg("11111111111111");
+        wechat.sendMsg("发送订阅消息");
 
     }
 }
