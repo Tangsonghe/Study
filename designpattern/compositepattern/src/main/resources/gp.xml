@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company name="沽泡学院">
+    <founders>
+        <founder name="James老师" position="创始人"></founder>
+        <founder name="Tom老师" position="创始人"></founder>
+        <founder name="Mic老师" position="创始人"></founder>
+    </founders>
+    <departments>
+        <department name="教育部">
+            <stuffers>
+                <leader name="花花老师" position="leader"></leader>
+                <stuffer name="微微老师" position="员工"></stuffer>
+                <stuffer name="菲菲老师" position="员工"></stuffer>
+            </stuffers>
+        </department>
+        <department name="采购部">
+            <stuffers>
+                <stuffer name="笑笑老师" position="leader"></stuffer>
+                <stuffer name="kiki老师" position="员工"></stuffer>
+                <stuffer name="曼妮老师" position="员工"></stuffer>
+            </stuffers>
+        </department>
+        <department name="销售部">
+            <stuffers>
+                <stuffer name="茜茜老师" position="leader"></stuffer>
+                <stuffer name="静静老师" position="员工"></stuffer>
+                <stuffer name="小夕老师" position="员工"></stuffer>
+            </stuffers>
+        </department>
+        <department name="研发部">
+            <stuffers>
+                <stuffer name="Jack老师" position="leader"></stuffer>
+                <stuffer name="青山老师" position="员工"></stuffer>
+                <stuffer name="Seven老师" position="员工"></stuffer>
+            </stuffers>
+            <department name="Java研发部">
+                <stuffers>
+                    <stuffer name="Jack老师" position="leader"></stuffer>
+                    <stuffer name="青山老师" position="员工"></stuffer>
+                </stuffers>
+            </department>
+            <department name="Msql研发部">
+                <stuffers>
+                    <stuffer name="青山老师" position="leader"></stuffer>
+                    <stuffer name="Seven老师" position="员工"></stuffer>
+                </stuffers>
+            </department>
+            <department name="Redis研发部">
+                <stuffers>
+                    <stuffer name="Seven老师" position="leader"></stuffer>
+                    <stuffer name="Jack老师" position="员工"></stuffer>
+                </stuffers>
+                <department name="Redis研发部1">
+                    <stuffers>
+                        <stuffer name="Seven老师" position="leader"></stuffer>
+                        <stuffer name="Jack老师" position="员工"></stuffer>
+                    </stuffers>
+                </department>
+            </department>
+        </department>
+    </departments>
+</company>
