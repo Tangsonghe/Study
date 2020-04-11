@@ -20,11 +20,11 @@ public class TeacherMenu extends MenuDecorator {
         teacherMenus.add("作业");
         teacherMenus.add("题库");
         teacherMenus.add("成长墙");
-        teacherMenus.add("管理");
+        teacherMenus.add("系统管理");
 
-        List<String> baseMenus = super.getBaseMenuList();
-        teacherMenus.addAll(baseMenus);
+        List<String> baseMenus = super.getLoginMenuList();
+        baseMenus.addAll(teacherMenus);
 
-        return teacherMenus;
+        return baseMenus;
     }
 }

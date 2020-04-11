@@ -21,9 +21,9 @@ public class StudentMenu extends MenuDecorator {
         studentMenus.add("题库");
         studentMenus.add("成长墙");
 
-        List<String> baseMenus = super.getBaseMenuList();
-        studentMenus.addAll(baseMenus);
+        List<String> baseMenus = super.getLoginMenuList();
+        baseMenus.addAll(studentMenus);
 
-        return studentMenus;
+        return baseMenus;
     }
 }

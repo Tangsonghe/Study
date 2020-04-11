@@ -1,0 +1,12 @@
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\PhoneLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\model\User.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\model\ResultMsg.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\WechatLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\login\ThridLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\ILoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\QQLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\TikTokLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\Test.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\login\IThirdLogin.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\adapter\AbstractLoginAdapter.java
+E:\gpwork\Study\designpattern\adapterpattern\src\main\java\com\gp\adapters\passport\third\PassportService.java

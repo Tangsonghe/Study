@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chainpattern" />
+        <module name="strategypattern" />
+        <module name="payment" />
+        <module name="proxy (1)" />
+        <module name="builderpattern" />
+        <module name="proxy (2)" />
+        <module name="interpreterpattern" />
+        <module name="compositepattern" />
+        <module name="adapterpattern" />
+        <module name="prototype" />
+        <module name="commadpattern" />
+        <module name="proxy" />
+        <module name="decoratorpattern" />
+        <module name="proxypattern" />
+        <module name="singleton" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adapterpattern" target="1.7" />
+      <module name="builderpattern" target="1.7" />
+      <module name="chainpattern" target="8" />
+      <module name="commadpattern" target="8" />
+      <module name="compositepattern" target="1.7" />
+      <module name="decoratorpattern" target="1.7" />
+      <module name="interpreterpattern" target="1.7" />
+      <module name="payment" target="1.7" />
+      <module name="prototype" target="1.7" />
+      <module name="proxy" target="1.7" />
+      <module name="proxy (1)" target="1.5" />
+      <module name="proxy (2)" target="1.7" />
+      <module name="proxypattern" target="1.7" />
+      <module name="singleton" target="1.8" />
+      <module name="strategypattern" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

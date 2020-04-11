@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/proxypattern" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/proxypattern/pom.xml" />
+        <option value="$PROJECT_DIR$/builder/builderpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/builderpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/pom.xml" />
+        <option value="$PROJECT_DIR$/decoratorpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/compositepattern/pom.xml" />
+        <option value="$PROJECT_DIR$/adapterpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/strategypattern/pom.xml" />
+        <option value="$PROJECT_DIR$/chainpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/commadpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/interpreterpattern/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

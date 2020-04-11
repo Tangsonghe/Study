@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adapterpattern/adapterpattern.iml" filepath="$PROJECT_DIR$/adapterpattern/adapterpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/builderpattern/builderpattern.iml" filepath="$PROJECT_DIR$/builderpattern/builderpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chainpattern/chainpattern.iml" filepath="$PROJECT_DIR$/chainpattern/chainpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commadpattern/commadpattern.iml" filepath="$PROJECT_DIR$/commadpattern/commadpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compositepattern/compositepattern.iml" filepath="$PROJECT_DIR$/compositepattern/compositepattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoratorpattern/decoratorpattern.iml" filepath="$PROJECT_DIR$/decoratorpattern/decoratorpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/designpattern.iml" filepath="$PROJECT_DIR$/.idea/designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interpreterpattern/interpreterpattern.iml" filepath="$PROJECT_DIR$/interpreterpattern/interpreterpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prototype/prototype.iml" filepath="$PROJECT_DIR$/prototype/prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxypattern/proxy.iml" filepath="$PROJECT_DIR$/proxypattern/proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxypattern/proxy (1).iml" filepath="$PROJECT_DIR$/proxypattern/proxy (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxypattern/proxy (2).iml" filepath="$PROJECT_DIR$/proxypattern/proxy (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxypattern/proxypattern.iml" filepath="$PROJECT_DIR$/proxypattern/proxypattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategypattern/strategypattern.iml" filepath="$PROJECT_DIR$/strategypattern/strategypattern.iml" />
+    </modules>
+  </component>
+</project>

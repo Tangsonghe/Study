@@ -9,8 +9,10 @@ import java.util.List;
  */
 public abstract class Menu {
 
-    abstract List<String> getBaseMenuList();
-
+    /**
+     * 登录后的菜单
+     * @return
+     */
     abstract List<String> getLoginMenuList();
 
 }

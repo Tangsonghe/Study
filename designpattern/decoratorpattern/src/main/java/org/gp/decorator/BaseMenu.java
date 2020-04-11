@@ -13,7 +13,7 @@ import java.util.List;
 public class BaseMenu extends Menu {
 
     @Override
-    public List<String> getBaseMenuList() {
+    List<String> getLoginMenuList() {
 
         List<String> menus = new ArrayList<>();
         menus.add("问答");
@@ -23,10 +23,5 @@ public class BaseMenu extends Menu {
         menus.add("商城");
 
         return menus;
-    }
-
-    @Override
-    List<String> getLoginMenuList() {
-        return this.getBaseMenuList();
     }
 }

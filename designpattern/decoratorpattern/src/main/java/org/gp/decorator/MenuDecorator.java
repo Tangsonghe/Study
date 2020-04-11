@@ -17,10 +17,7 @@ public abstract class MenuDecorator extends Menu {
     }
 
     @Override
-    protected List<String> getBaseMenuList() {
-        return this.menu.getBaseMenuList();
+    public List<String> getLoginMenuList() {
+        return this.menu.getLoginMenuList();
     }
-
-    @Override
-    abstract List<String> getLoginMenuList();
 }

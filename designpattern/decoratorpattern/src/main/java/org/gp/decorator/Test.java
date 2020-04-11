@@ -15,5 +15,8 @@ public class Test {
 
         menu = new TeacherMenu(menu);
         System.out.println("老师登录的菜单:" + menu.getLoginMenuList());
+
+        menu = new AdminMenu(menu);
+        System.out.println("管理员登录的菜单:" + menu.getLoginMenuList());
     }
 }
