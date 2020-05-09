@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spark.spring.mybatis.service.dao.ProductMapper">
+
+    <resultMap id="ProductRstMapper" type="com.spark.spring.mybatis.bean.Product">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="product_name" jdbcType="VARCHAR" property="productName" />
+        <result column="list_type" jdbcType="VARCHAR" property="types" typeHandler="com.spark.spring.mybatis.handler.ListStringHandler" />
+    </resultMap>
+
+    <select id="selectById" resultMap="ProductRstMapper">
+        select * from product where id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.spark.spring.mybatis.bean.Product">
+        insert into product
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="productName != null">
+                product_name,
+            </if>
+            <if test="types != null">
+                list_type,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="productName != null">
+                #{productName,jdbcType=VARCHAR},
+            </if>
+            <if test="types != null">
+                #{types,jdbcType=VARCHAR,typeHandler=com.spark.spring.mybatis.handler.ListStringHandler},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>
